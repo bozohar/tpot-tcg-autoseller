@@ -76,7 +76,7 @@ const puppeteer = require('puppeteer');
             // Submit the listing
             await page.click('#submit-listing');
 
-            // Wait for 2 seconds
+            // Wait for 3 seconds
             await new Promise(resolve => setTimeout(resolve, 3000));
 
             // Open a new listing
